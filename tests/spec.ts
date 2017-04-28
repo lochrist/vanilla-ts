@@ -1,10 +1,7 @@
-import '../config';
-import * as _ from 'lodash'
+import _ = require('lodash');
 
-describe("Player", function () {
-    describe('rules', function () {
-        it('Default rule', function () {
-            expect(_.each).toBeDefined();
-        });
+describe('rules', function () {
+    it('Default rule', function () {
+        expect(_.each).toBeDefined();
     });
 });

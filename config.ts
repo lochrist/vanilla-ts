@@ -1,8 +1,8 @@
 require.config({
-    baseUrl: 'dist',
+    baseUrl: '..',
 
     paths: {
-        'lodash': '../lib/lodash.min',
+        'lodash': 'lib/lodash.min',
     },
 
     shim: {

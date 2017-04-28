@@ -1,4 +1,3 @@
-import './config';
 import * as _ from 'lodash';
 
 _.each([1, 2, 3], n => {
