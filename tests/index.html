@@ -6,21 +6,12 @@
 
   <link rel="shortcut icon" type="image/png" href="jasmine-2.6.0/jasmine_favicon.png">
   <link rel="stylesheet" href="jasmine-2.6.0/jasmine.css">
-
   <script src="jasmine-2.6.0/jasmine.js"></script>
   <script src="jasmine-2.6.0/jasmine-html.js"></script>
-
-  <!-- include source files here... -->
-  <script type="text/javascript" charset="utf-8" src="../lib/requirejs/require.js"></script>
-  <script type="text/javascript" charset="utf-8" src="../dist/config.js"></script>
-  <script type="text/javascript">
-    requirejs(["../dist/tests/spec.js"]);
-  </script>
-
-  <!-- include spec files here... -->
+  
+  <script type="text/javascript" charset="utf-8" data-main="../dist/tests/config" src="../lib/requirejs/require.js"></script>
   
 </head>
-
 <body>
 </body>
 </html>
