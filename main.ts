@@ -1,6 +1,17 @@
 import * as _ from 'lodash';
 import {utils} from 'utils';
 
+interface Foin {
+    test: Map<string, string>;
+}
+
+let p = new Promise(resolve => {
+    return 10;
+});
+
+let m = new Map<string, string>();
+m.set('ping', 'pong');
+
 _.each([1, 2, 3], n => {
     console.log(n);
 });
