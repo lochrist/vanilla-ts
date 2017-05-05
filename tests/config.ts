@@ -12,6 +12,6 @@ require.config({
 
 require(['jasmine-boot'], function () {
     require(['tests/spec'], function () {
-        window.onload();
+        window.onload(null);
     });
 });
