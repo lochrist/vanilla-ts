@@ -7,7 +7,6 @@
             // See https://go.microsoft.com/fwlink/?LinkId=733558
             // for the documentation about the tasks.json format
             "taskName": "tsc",
-            "version": "0.1.0",
             "command": "tsc",
             "isShellCommand": true,
             "args": ["-p", "."],
@@ -19,7 +18,6 @@
             // See https://go.microsoft.com/fwlink/?LinkId=733558
             // for the documentation about the tasks.json format
             "taskName": "tsw",
-            "version": "0.1.0",
             "command": "tsw",
             "isShellCommand": true,
             "args": [
