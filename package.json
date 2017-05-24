@@ -1,8 +1,8 @@
 {
-  "name": "cfdg-ts",
-  "displayName": "cfdg-ts",
+  "name": "vanilla-ts",
+  "displayName": "vanilla-ts",
   "version": "0.0.1",
-  "description": "cfdg-ts",
+  "description": "vanilla-ts",
   "license": "MIT",
   "author": {
     "url": "https://github.com/lochrist",
