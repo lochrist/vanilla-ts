@@ -1,5 +1,3 @@
-export namespace utils {
-    export function testMe () : string {
-        return 'hello';
-    }
+export function testMe () : string {
+    return 'hello';
 }

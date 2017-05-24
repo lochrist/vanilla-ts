@@ -1,5 +1,5 @@
 import * as _ from 'lodash';
-import {utils} from 'utils';
+import * as utils from 'utils';
 
 interface Foin {
     test: Map<string, string>;
